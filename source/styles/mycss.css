@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=roboto&display=swap');
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: roboto;
+    background: linear-gradient(90deg, #061492 0%, #01021c 100%);
+}
+
+p {
+    color: rgb(79, 161, 134);
+}
+
+.nav-link {
+    color: rgb(111, 117, 121);
+}
+
+.navbar-nav .nav-link.active {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: rgb(79, 161, 134);
+}
+.navbar-nav .nav-link:hover {
+    color: rgb(93, 98, 101);
+}
+
+.navbar-brand img {
+    width: 35px;
+}
+
+.navbar-toggler {
+    background-color: rgb(193, 202, 210);
+
+}
+
+.card {
+    border-width: 0.15em;
+    border-color: rgb(169, 163, 163);
+    background: linear-gradient(300deg, #8dd9ff 0%, #ffffff 100%);
+    color: rgb(37, 37, 37);
+}
+
+.card img {
+    border-bottom-style: solid;
+    border-width: 0.1em;
+    border-color: rgb(169, 163, 163);
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+.sidebar {
+    color: rgb(79, 161, 134);
+    background: linear-gradient(150deg, #52556c 0%, #1f2628 100%);
+    a {
+        text-decoration: none;
+    }
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-body .btn.btn-primary{
+    color: #ebe8e8;
+}
+
+.slide-text {
+    color: rgb(79, 161, 134);
+    margin-block: auto;
+    padding-right: 6em;
+}
+
+.footer-text {
+    color: rgb(79, 161, 134);
+    font-size: 1.2em;
+    margin: auto auto;
+}
+
+footer {
+    background: linear-gradient(150deg, #52556c 0%, #1f2628 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2.5s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
